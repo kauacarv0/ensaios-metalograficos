@@ -3,7 +3,7 @@ body{color:#17202a;background:#f4f6f8;margin:0;font-family:Arial,sans-serif}
 main{max-width:1200px;margin:auto;padding:30px 20px}
 header{margin-bottom:20px}
 .site-header{background:#fff;border:1px solid #e2e8f0;border-radius:16px;padding:22px 24px 18px;box-shadow:0 2px 8px rgba(15,23,42,.04)}
-.brand{text-align:center;padding:4px 0 18px;border-bottom:1px solid #edf1f5}.brand-logo{display:block;width:min(285px,80%);height:auto;margin:0 auto}.brand-subtitle{margin-top:10px;font-size:21px;letter-spacing:.2px;color:#5d626b}
+.brand{text-align:center;padding:4px 0 18px;border-bottom:1px solid #edf1f5}.brand-logo{display:block;width:min(285px,80%);margin:0 auto;font-family:Arial Black,Arial,sans-serif;font-size:38px;line-height:.9;letter-spacing:-3px;font-weight:900;text-align:center}.logo-gray{color:#60656d}.logo-blue{color:#1257a6}.brand-subtitle{margin-top:10px;font-size:21px;letter-spacing:.2px;color:#5d626b}
 .brand-name{font-family:Arial Black,Arial,sans-serif;font-size:58px;line-height:.9;letter-spacing:-5px;font-weight:900;color:#60656d}
 .brand-blue{color:#243eaa}
 
