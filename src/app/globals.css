@@ -92,3 +92,17 @@ small{display:block;margin-top:6px;color:#64748b}
 
 .graph-paste{margin-top:16px;border:2px dashed #cbd5e1;border-radius:12px;padding:14px;text-align:center;background:#f8fafc;display:flex;flex-direction:column;gap:7px;outline:none}.graph-paste:focus{border-color:#64748b;background:#f1f5f9}.graph-paste>b{font-size:14px}.graph-paste>span{font-size:12px;color:#64748b}.graph-paste img{display:block;max-width:100%;max-height:220px;margin:8px auto 2px;border:1px solid #dbe2ea;border-radius:6px}.graph-file{font-size:12px;color:#475569;cursor:pointer}.graph-file input{margin-left:8px}
 .report-graph{border:1px solid #dfe5ec;border-radius:6px;padding:6px;text-align:center;background:#fff}.report-graph img{display:block;width:100%;max-height:255px;object-fit:contain;margin:0 auto}
+@media print{
+  .report-sheet{font-size:9px!important}
+  .report-header{padding-bottom:10px!important;gap:18px!important}
+  .report-logo{font-size:30px!important}
+  .report-subtitle{font-size:9px!important;margin-top:5px!important}
+  .report-company{font-size:6.5px!important;margin-top:5px!important}
+  .report-title h1{font-size:14px!important}.report-title p{font-size:9px!important;margin-top:3px!important}
+  .report-meta{grid-template-columns:repeat(4,1fr)!important;gap:4px!important;margin:8px 0!important}.report-meta div{padding:5px!important}.report-meta b{font-size:7px!important;margin-bottom:3px!important}.report-meta span{font-size:9px!important}
+  .report-sheet h2{font-size:9px!important;margin:7px 0 4px!important;padding-bottom:3px!important}
+  .report-table th{font-size:7px!important}.report-table td{font-size:9px!important}.report-table th,.report-table td{padding:5px!important}
+  .report-graph{padding:3px!important}.report-graph img{max-height:165px!important}
+  .report-chem{grid-template-columns:repeat(5,1fr)!important;gap:3px!important}.report-chem div{padding:4px!important}.report-chem b{font-size:7px!important}.report-chem span{font-size:8px!important}
+  .report-footer{margin-top:7px!important;padding-top:5px!important;font-size:7px!important}
+}
