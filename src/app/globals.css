@@ -89,3 +89,5 @@ small{display:block;margin-top:6px;color:#64748b}
   .report-sheet{display:block!important;box-shadow:none!important;max-width:none!important;min-height:0!important;padding:0!important}
   .report-actions{display:none!important}
 }
+
+.graph-paste{margin-top:16px;border:2px dashed #cbd5e1;border-radius:12px;padding:14px;text-align:center;background:#f8fafc;display:flex;flex-direction:column;gap:7px;outline:none}.graph-paste:focus{border-color:#64748b;background:#f1f5f9}.graph-paste>b{font-size:14px}.graph-paste>span{font-size:12px;color:#64748b}.graph-paste img{display:block;max-width:100%;max-height:220px;margin:8px auto 2px;border:1px solid #dbe2ea;border-radius:6px}.graph-file{font-size:12px;color:#475569;cursor:pointer}.graph-file input{margin-left:8px}
