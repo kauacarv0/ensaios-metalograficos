@@ -71,8 +71,8 @@ small{display:block;margin-top:6px;color:#64748b}
 .report-overlay{position:fixed;inset:0;background:rgba(15,23,42,.72);z-index:50;overflow:auto;padding:28px}
 .report-sheet{background:#fff;max-width:900px;min-height:1100px;margin:0 auto;padding:38px 42px;color:#17202a;box-shadow:0 10px 35px rgba(0,0,0,.2)}
 .report-header{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;border-bottom:3px solid #1257a6;padding-bottom:18px}
-.report-logo{font-family:Arial Black,Arial,sans-serif;font-size:38px;letter-spacing:-3px;font-weight:900;line-height:.9}.report-logo span{color:#60656d}.report-logo b{color:#1257a6}.report-subtitle{font-size:11px;color:#5d626b;margin-top:8px}
-.report-title{text-align:right}.report-title h1{font-size:20px;margin:0;color:#17202a}.report-title p{margin:6px 0 0;color:#64748b;font-size:12px}
+.report-logo{font-family:Arial Black,Arial,sans-serif;font-size:38px;letter-spacing:-3px;font-weight:900;line-height:.9}.report-logo span{color:#60656d}.report-logo b{color:#1257a6}.report-subtitle{font-size:11px;color:#5d626b;margin-top:8px}.report-company{font-size:8px;line-height:1.35;color:#64748b;margin-top:8px;max-width:520px}
+.report-title{text-align:right;max-width:280px}.report-title h1{font-size:17px;margin:0;color:#17202a}.report-title p{margin:6px 0 0;color:#64748b;font-size:12px}
 .report-meta{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:14px 0}.report-meta div{border:1px solid #dfe5ec;border-radius:6px;padding:9px}.report-meta b{display:block;font-size:9px;text-transform:uppercase;color:#64748b;margin-bottom:5px}.report-meta span{font-size:12px;font-weight:700;word-break:break-word}
 .report-sheet h2{font-size:12px;margin:13px 0 7px;padding-bottom:6px;border-bottom:1px solid #dfe5ec;color:#1257a6}
 .report-table{margin:0}.report-table th,.report-table td{border:1px solid #dfe5ec;text-align:center;padding:9px}.report-table th{font-size:10px;text-transform:uppercase;background:#f3f6f9}.report-table td{font-size:13px;font-weight:700}
