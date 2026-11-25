@@ -91,3 +91,4 @@ small{display:block;margin-top:6px;color:#64748b}
 }
 
 .graph-paste{margin-top:16px;border:2px dashed #cbd5e1;border-radius:12px;padding:14px;text-align:center;background:#f8fafc;display:flex;flex-direction:column;gap:7px;outline:none}.graph-paste:focus{border-color:#64748b;background:#f1f5f9}.graph-paste>b{font-size:14px}.graph-paste>span{font-size:12px;color:#64748b}.graph-paste img{display:block;max-width:100%;max-height:220px;margin:8px auto 2px;border:1px solid #dbe2ea;border-radius:6px}.graph-file{font-size:12px;color:#475569;cursor:pointer}.graph-file input{margin-left:8px}
+.report-graph{border:1px solid #dfe5ec;border-radius:6px;padding:6px;text-align:center;background:#fff}.report-graph img{display:block;width:100%;max-height:255px;object-fit:contain;margin:0 auto}
