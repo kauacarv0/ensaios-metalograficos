@@ -66,3 +66,26 @@ summary{cursor:pointer}
 .reason.missing{border-left:4px solid #d97706}
 small{display:block;margin-top:6px;color:#64748b}
 @media(max-width:800px){.grid,.searchgrid,.editgrid{grid-template-columns:1fr}.facts{grid-template-columns:repeat(2,1fr)}.chemgrid{grid-template-columns:repeat(3,1fr)}table{display:block;overflow:auto}.modal{padding:15px}}
+
+.reportbtn{background:#1257a6}
+.report-overlay{position:fixed;inset:0;background:rgba(15,23,42,.72);z-index:50;overflow:auto;padding:28px}
+.report-sheet{background:#fff;max-width:900px;min-height:1100px;margin:0 auto;padding:38px 42px;color:#17202a;box-shadow:0 10px 35px rgba(0,0,0,.2)}
+.report-header{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;border-bottom:3px solid #1257a6;padding-bottom:18px}
+.report-logo{font-family:Arial Black,Arial,sans-serif;font-size:38px;letter-spacing:-3px;font-weight:900;line-height:.9}.report-logo span{color:#60656d}.report-logo b{color:#1257a6}.report-subtitle{font-size:11px;color:#5d626b;margin-top:8px}
+.report-title{text-align:right}.report-title h1{font-size:20px;margin:0;color:#17202a}.report-title p{margin:6px 0 0;color:#64748b;font-size:12px}
+.report-meta{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:20px 0}.report-meta div{border:1px solid #dfe5ec;border-radius:6px;padding:9px}.report-meta b{display:block;font-size:9px;text-transform:uppercase;color:#64748b;margin-bottom:5px}.report-meta span{font-size:12px;font-weight:700;word-break:break-word}
+.report-sheet h2{font-size:13px;margin:20px 0 9px;padding-bottom:6px;border-bottom:1px solid #dfe5ec;color:#1257a6}
+.report-table{margin:0}.report-table th,.report-table td{border:1px solid #dfe5ec;text-align:center;padding:9px}.report-table th{font-size:10px;text-transform:uppercase;background:#f3f6f9}.report-table td{font-size:13px;font-weight:700}
+.report-chem{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.report-chem div{border:1px solid #e3e8ee;border-radius:5px;padding:7px;text-align:center}.report-chem b{display:block;font-size:9px;color:#64748b}.report-chem span{font-size:12px;font-weight:700}
+.report-standards{display:grid;gap:7px}.report-standard{border:1px solid #dfe5ec;border-radius:6px;padding:9px}.report-standard.ENQUADRAVEL{border-left:4px solid #16a34a}.report-standard.NAO_ENQUADRAVEL{border-left:4px solid #dc2626}.report-standard.DADOS_INSUFICIENTES{border-left:4px solid #d97706}.report-standard-head{display:flex;justify-content:space-between;gap:15px;font-size:12px}.report-standard.ENQUADRAVEL .report-standard-head strong{color:#166534}.report-standard.NAO_ENQUADRAVEL .report-standard-head strong{color:#991b1b}.report-standard.DADOS_INSUFICIENTES .report-standard-head strong{color:#92400e}.report-standard p{margin:5px 0 0;font-size:10px;color:#475569}.report-reasons{display:grid;gap:3px;margin-top:5px;font-size:10px;color:#475569}
+.report-footer{border-top:1px solid #dfe5ec;margin-top:28px;padding-top:10px;display:flex;justify-content:space-between;gap:20px;color:#64748b;font-size:9px}
+.report-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:22px}.report-actions button{margin:0}
+@media(max-width:800px){.report-overlay{padding:8px}.report-sheet{padding:24px 18px}.report-header{display:block}.report-title{text-align:left;margin-top:18px}.report-meta{grid-template-columns:repeat(2,1fr)}.report-chem{grid-template-columns:repeat(3,1fr)}}
+@media print{
+  @page{size:A4;margin:10mm}
+  body{background:#fff!important}
+  body>*{display:none!important}
+  .report-overlay{display:block!important;position:static!important;background:#fff!important;padding:0!important;overflow:visible!important}
+  .report-sheet{display:block!important;box-shadow:none!important;max-width:none!important;min-height:0!important;padding:0!important}
+  .report-actions{display:none!important}
+}
