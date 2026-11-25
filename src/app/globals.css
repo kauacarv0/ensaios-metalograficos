@@ -103,7 +103,7 @@ small{display:block;margin-top:6px;color:#64748b}
   .report-meta{grid-template-columns:repeat(4,1fr)!important;gap:5px!important;margin:9px 0!important}.report-meta div{padding:6px!important}.report-meta b{font-size:7.5px!important;margin-bottom:3px!important}.report-meta span{font-size:10px!important}
   .report-sheet h2{font-size:10px!important;margin:8px 0 4px!important;padding-bottom:3px!important}
   .report-table th{font-size:8px!important}.report-table td{font-size:10px!important}.report-table th,.report-table td{padding:6px!important}
-  .report-graph{padding:4px!important}.report-graph img{max-height:190px!important}
+  .report-graph{padding:3px!important}.report-graph img{max-height:235px!important}
   .report-chem{grid-template-columns:repeat(5,1fr)!important;gap:4px!important}.report-chem div{padding:5px!important}.report-chem b{font-size:7.5px!important}.report-chem span{font-size:9px!important}
   .report-footer{margin-top:8px!important;padding-top:6px!important;font-size:7.5px!important}
 }
